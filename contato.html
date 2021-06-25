@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css"
+        integrity="sha512-IgmDkwzs96t4SrChW29No3NXBIBv8baW490zk5aXvhCD8vuZM3yUSkbyTBcXohkySecyzIrUwiF/qV0cuPcL3Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+    <title>Document</title>
+    <style>
+        .topo-sobre {
+            border: 1px solid #f5f5f5;
+            box-shadow: 0px 0px 10px 0px #ccc;
+        }
+
+        .titulo-topo h4 {
+            font-weight: bolder;
+            color: #000;
+            padding: 10px;
+            font-size: 12px;
+        }
+
+        .titulo-topo {
+            border-bottom: 1px solid #f5f5f5;
+        }
+
+        .card {
+            border: 1px solid #f5f5f5;
+            box-shadow: 0px 0px 10px 0px #ccc;
+            padding: 10px;
+        }
+
+
+        .dev p {
+            text-align: center;
+        }
+
+        .email-topo {
+            padding: 20px;
+        }
+
+        .msg {
+            padding: 20px;
+        }
+
+        .button-s {
+            padding: 0px 20px 10px;
+            /* margin: 0px; */
+        }
+
+        .navbar-menu {
+            background-color: unset;
+        }
+
+        .navbar {
+            background-color: unset;
+        }
+
+        header {
+            background-color: #fafafa !important;
+        }
+        .media+.media{
+            margin-top: unset;
+        }
+        @media only screen and (max-width: 750px) {
+            a.navbar-link {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-menu is-active">
+                    <div class="navbar-start">
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link" href="">
+                                Paginas
+                            </a>
+                            <div class="navbar-dropdown is-boxed">
+                                <a href="index.html" class="navbar-item">Home</a>
+                                <a href="contato.html" class="navbar-item">Contato</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="section">
+        <div class="columns">
+            <div class="column is-one-quarter">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image">
+                            <img src="https://scontent.fbfh17-1.fna.fbcdn.net/v/t1.6435-9/82599652_2649623221783368_5939634887819526144_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeFgqCdgkV-AtlKcgn626gOqZcmb6FLPbp9lyZvoUs9un7Bapx_4Uq9xO83amzizGhhLcwHoV5PJLvEq_JMtafO-&_nc_ohc=k_8Z1X8_OIAAX9752Sa&_nc_ht=scontent.fbfh17-1.fna&oh=566d7c577b2df8ce38609e0af8a4b959&oe=60DAABFA"
+                                alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Alexander Souza</p>
+                                <a href="https://www.linkedin.com/in/alexander-pereira-de-souza-4967ab142/">
+                                    <p class="subtitle is-6"><strong>Desenvolvedor Front-end Junior</strong></p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            Contatos:
+                            <br>
+                            <p>+55 041 984063268</p>
+                            <p>alexnada@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="is-two-thirds column">
+                <div class="topo-sobre">
+                    <div class="titulo-topo">
+                        <h4>Contato</h4>
+                    </div>
+                    <div class="topo-corpo">
+                        <form action="" method="post">
+                            <div class="email-topo">
+                                <label for="email"><strong>Email</strong></label><br>
+                                <div class="control has-icons-left has-icons-right">
+                                    <input class="input" type="email" placeholder="Email">
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-envelope"></i>
+                                    </span>
+                                    <span class="icon is-small is-right">
+                                        <i class="fas fa-check"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="msg">
+                                <label for="mensagem"><strong>Mensagem</strong></label>
+                                <div class="text">
+                                    <textarea class="textarea"
+                                        placeholder="Bom dia, Boa tarde e/ou Boa noite"></textarea>
+                                </div>
+                            </div>
+                            <div class="button-s">
+                                <button class="button is-success is-rounded">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="dev">
+                <a href="https://www.linkedin.com/in/alexander-pereira-de-souza-4967ab142/">
+                    <p class="subtitle is-6"><strong>Desenvolvido por Alexander Souza</strong></p>
+                </a>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
