@@ -1,0 +1,163 @@
+.topo-sobre {
+    border: 1px solid #f5f5f5;
+    box-shadow: 0px 0px 10px 0px #ccc;
+}
+
+.titulo-topo h4 {
+    font-weight: bolder;
+    color: #000;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.titulo-topo {
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.experiencias {
+    border: 1px solid #f5f5f5;
+    box-shadow: 0px 0px 10px 0px #ccc;
+}
+
+.topo-corpo p {
+    padding: 10px;
+    font-size: 13px;
+}
+
+.experiencias-corpo .media {
+    padding: 10px;
+}
+
+.texto p {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.media-content>div>h3 {
+    font-size: 18px;
+}
+
+.texto ul {
+    padding: 10px;
+}
+
+.card {
+    border: 1px solid #f5f5f5;
+    box-shadow: 0px 0px 10px 0px #ccc;
+    padding: 10px;
+}
+
+.formacao {
+    border: 1px solid #f5f5f5;
+    box-shadow: 0px 0px 10px 0px #ccc;
+}
+
+.formacao-corpo {
+    padding: 10px 20px;
+}
+
+.dev p {
+    text-align: center;
+}
+
+.navbar-menu {
+    background-color: unset;
+}
+
+.navbar {
+    background-color: unset;
+}
+
+header {
+    background-color: #fafafa !important;
+}
+
+.media+.media {
+    margin-top: unset;
+}
+
+.topo-sobre {
+    border: 1px solid #f5f5f5;
+    box-shadow: 0px 0px 10px 0px #ccc;
+}
+
+.titulo-topo h4 {
+    font-weight: bolder;
+    color: #000;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.titulo-topo {
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.card {
+    border: 1px solid #f5f5f5;
+    box-shadow: 0px 0px 10px 0px #ccc;
+    padding: 10px;
+}
+
+
+.dev p {
+    text-align: center;
+}
+
+.email-topo {
+    padding: 20px;
+}
+
+.msg {
+    padding: 20px;
+}
+
+.button-s {
+    padding: 0px 20px 10px;
+    /* margin: 0px; */
+}
+
+.navbar-menu {
+    background-color: unset;
+}
+
+.navbar {
+    background-color: unset;
+}
+
+header {
+    background-color: #fafafa !important;
+}
+
+.media+.media {
+    margin-top: unset;
+}
+
+@media only screen and (max-width: 750px) {
+    a.navbar-link {
+        display: none;
+    }
+
+    .image.is-128x128 {
+        height: 128px;
+        width: 128px;
+        margin: auto;
+    }
+
+    .media {
+        display: block;
+    }
+
+    .media-content>div>h3 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .title-ti {
+        padding: 10px;
+        padding-bottom: 0px;
+    }
+
+    a.navbar-link {
+        display: none;
+    }
+}
